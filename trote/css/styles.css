@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+header{
+    background-color: chartreuse;
+    color:white;
+    padding: 15px 0; /*espaçamento interno 15 px acima e abaixo, 0px esquerda e direita*/
+    font-size: 24px;
+
+}
+nav{
+    background-color: rgb(209, 237, 213);
+padding: 10px;
+display: flex; /* flex boxing*/
+/*espaço entre os links*/
+justify-content:space-between;
+/*alinhamento na vertical*/
+align-items:center;
+
+}
+#links-menu{
+    display:flex;
+    gap: 20px;
+}
+/* configure o estilo das ancoras que estao dentro do nav*/
+nav a{
+    color:white; /* texto branco*/
+    text-decoration:none; /* não faz decoração no link*/
+    padding: 10px 15px; /* 10px e acima e abixo de 15 é esquerda e direita*/
+    font-size:18px; /*18px é o tamanho da fonte*/
+    background-color: rgb(59, 208, 103);
+    border-radius: 5px; /*borda com canto arredondado*/
+}
+nav a:hover{
+    background-color: lightgreen;
+
+}
+img{
+    width:120px;
+    height:auto;
+    margin-right: 10px;
+}
+ .container{
+    width:80%;
+    margin: 20px auto;
+background-color: rgb(218, 208, 208);
+padding:20px;
+border-radius: 10px;
+text-align: justify;
+ }
+ h2{
+    text-align: center;
+ } 
+table tr td {
+    padding: 20px;
+}
+table {
+    margin: 0 auto; /* espaçamento externo de 0 acima e abaixo e automatico esq. dir. */
+}
+ .laranja{
+    background-color:orange;
+    color:white
+    
+ }
+ .azul{
+    background-color: blue;
+    color:white
+ }
+ .preta{
+    background-color: black;
+    color:white
+ }
+
+ .roxa{
+    background-color: purple;
+    color:white
+ }
+ .verde{
+    background-color: green;
+    color:white
+ }
+ .vermelha{
+    background-color: red;
+color:white
+ }
+ .campos{
+    margin: 10px;
+ }
